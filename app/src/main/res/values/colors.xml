@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textPrimaryColor">#0F0C0C</color>
+    <color name="answerColor">#0F0C0C</color>
+    <color name="editBack">#c8cbd2</color>
+    <color name="theamColor">#c65b39</color>
+
+    <!-- Primary color of the app(shown in the app bar)-->
+    <color name="colorPrimary">#c65b39</color>
+
+    <!-- primary dark color of the app (show in status bar)-->
+    <color name="colorPrimaryDark">#8b4028</color>
+
+    <!--Primary background color of the app -->
+    <color name="app_background">#dae8af</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+
+    tools:context=".ScorePage">
+
+
+    <TextView
+        android:id="@+id/extras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:padding="16dp"
+        android:text=" "
+        android:textColor="@color/textPrimaryColor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="#FFF"
+        android:background="@color/theamColor"
+        android:padding="9dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/exit" />
+
+    <TextView
+        android:id="@+id/questionRe"
+        style="@style/normalView"
+        android:layout_below="@+id/extras"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="@string/rev" />
+
+    <ListView
+        android:id="@+id/qusReview"
+        style="@style/listView"
+        android:layout_below="@+id/questionRe">
+
+    </ListView>
+
+</RelativeLayout>

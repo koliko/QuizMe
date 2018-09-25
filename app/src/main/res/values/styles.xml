@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/theamColor</item>
+    </style>
+
+    <!--this part is for the firstpage screen-->
+    <style name="firstpageScreen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/paddingSize</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">@dimen/marginVertical</item>
+        <item name="android:textSize">@dimen/mainTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--this part is for the image icon-->
+    <style name="firstpageImage">
+        <item name="android:layout_width">@dimen/marginToLeft</item>
+        <item name="android:layout_height">@dimen/marginToRight</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!--this part for the frame-->
+    <style name="framePage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--this part is for the question linearlayout view-->
+    <style name="linearName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/marginHorinzontal</item>
+        <item name="android:layout_marginRight">@dimen/marginHorinzontal</item>
+        <item name="android:layout_marginBottom">@dimen/marginVertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/marginVertical</item>
+    </style>
+
+    <!--this part is for the text view-->
+    <style name="normalView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/mainTextSize</item>
+        <item name="android:textColor">@color/textPrimaryColor</item>
+    </style>
+
+    <!--this part is for the radioGroup-->
+    <style name="radioGroupMain">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--this part is for the radioButton-->
+    <style name="radioButtonMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/answerColor</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:checked">false</item>
+    </style>
+
+    <style name="checkBoxMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:checked">false</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/answerColor</item>
+    </style>
+
+    <style name="linearSecond">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/marginHorinzontal</item>
+        <item name="android:layout_marginRight">@dimen/marginHorinzontal</item>
+        <item name="android:layout_marginBottom">@dimen/marginVertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/boarder</item>
+        <item name="android:layout_marginTop">@dimen/marginVertical</item>
+    </style>
+
+    <style name="editTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:hint">Enter Answer here</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:textColor">@color/textPrimaryColor</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="nameField">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

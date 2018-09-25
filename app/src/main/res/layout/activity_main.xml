@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/framePage"
+        style="@style/framePage"
+        android:background="@color/app_background">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/quizlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quizme" />
+
+    <TextView
+        android:id="@+id/pageBanner"
+        style="@style/firstpageScreen"
+        android:text="@string/banner"
+        android:textColor="#EFF1F4"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/firstName"
+        style="@style/firstpageScreen"
+        android:layout_below="@+id/quizlogo"
+        android:background="@drawable/frameback"
+        android:hint="@string/firstNameHint"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/startQuiz"
+        style="@style/firstpageScreen"
+        android:layout_below="@id/firstName"
+        android:text="@string/startquiz" />
+
+
+</RelativeLayout>

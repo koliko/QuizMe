@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Quiz Me</string>
+    <string name="qus_page">Quiz Question</string>
+    <string name="qus_review">Quiz Review</string>
+
+    <!--this part shows the name of the quiz-->
+    <string name="banner">QUIZ ME</string>
+    <string name="quizInstruction">Instruction</string>
+    <string name="startquiz">START</string>
+    <string name="firstNameHint">Enter First Name Here</string>
+    <string name="score">Socre</string>
+    <string name="reviewQuiz">See below for quize review</string>
+    <string name="rev">REVIEW QUESTION AND ANSWER BELOW</string>
+
+    <!--this part shows the questions and answers to use for the quiz-->
+
+    <string name="qus1">Q1. How to pass the data between activities in Android?</string>
+    <!--question one answers-->
+    <string name="qus1An1">Intent</string>
+    <string name="qus1An2">Content Provider</string>
+    <string name="qus1An3">Broadcast receiver</string>
+    <string name="qus1An4">None of the Above</string>
+    <string name="qus1AnsExp">An Intent is used to connect one activity to another activity and having a message passing
+mechanism between activities.</string>
+
+    <string name="bonusQus">Identify the image</string>
+
+    <!--question two -->
+    <string name="qus2">Q2. What are the layouts available in android?</string>
+    <!--question two answers-->
+    <string name="qus2An1">Linear Layout</string>
+    <string name="qus2An2">Frame Layout</string>
+    <string name="qus2An3">Table Layout</string>
+    <string name="qus2An4">Relative Layout</string>
+    <string name="qus2AnsExp">Android is having Linear Layout(Horizontal and Vertical), Frame Layout, Table Layout, and
+Relative Layout.</string>
+
+    <!--question three-->
+    <string name="qus3">Q3. What are the return values of onStartCommand() in android services?</string>
+    <!--question three answer-->
+    <string name="qus3An1">START_STICKY</string>
+    <string name="qus3An2">START_NOT_STICKY</string>
+    <string name="qus3An3">START_REDELIVER_INTENT</string>
+    <string name="qus3An4">All of the above</string>
+    <string name="qus3AnsExp">START_STICKY − If android stops services forcefully, using with START_STICKY, it can be
+restarted automatically without the user interaction.
+START_NOT_STICKY − If android stops services forcefully, it will not restart services till user
+start services.
+START_REDELIVER_INTENT − If android stops services forcefully, it will restart services by re-
+sending an intent.</string>
+
+    <!--question Four -->
+    <string name="qus4">Q4. How many applications are there in a given task in android?</string>
+    <string name="qus4An1">Two</string>
+    <string name="qus4An2">One</string>
+    <string name="qus4An3">Many</string>
+    <string name="qus4An4">Zero</string>
+    <string name="qus4AnExp">The task is a collaboration of applications. It contains one or more applications in it</string>
+
+    <!--question Five-->
+    <string name="qus5">Q5. What is an anonymous class in android?</string>
+    <string name="qus5An1">Interface class</string>
+    <string name="qus5An2">A class that does not have a name but have functionalities in it</string>
+    <string name="qus5An3">Java class</string>
+    <string name="qus5An4">Manifest file</string>
+    <string name="qus5AnExp">Anonymous class doesn\'t have class name but has some functionalities in it</string>
+
+    <!--question Six-->
+    <string name="qus6">Q6. What is APK in android?</string>
+    <string name="qus6An1">Android packages</string>
+    <string name="qus6An2">Android pack</string>
+    <string name="qus6An3">Android packaging kit</string>
+    <string name="qus6An4">None of the above.</string>
+    <string name="qus6AnExp">APK is an android packaging kit. We can pack/zip, our code in apk format to work on Android
+devices as an application.</string>
+
+    <!--question Seven-->
+    <string name="qus7">Q7. What does httpclient.execute() returns in android?</string>
+    <string name="qus7An1">Http entity</string>
+    <string name="qus7An2">Http response</string>
+    <string name="qus7An3">Http result</string>
+    <string name="qus7An4">None of the above.</string>
+    <string name="qus7AnExp">Httpclient.execute() executes only once and it will return http response from the server or device,
+Http entity is embedded the body of the Http response.</string>
+
+    <!--question Eight-->
+    <string name="qus8">Q8. What is the HTTP response error code status in android?</string>
+    <string name="qus8An1">status code 100</string>
+    <string name="qus8An2">status code > 100</string>
+    <string name="qus8An3">status >= 400</string>
+    <string name="qus8An4">None of the above</string>
+    <string name="qus8AnExp">HTTP status code >= 400 means error else success. Status code 404 means page not found</string>
+
+    <!--question Nine-->
+    <string name="qus9">Q9. Why don\'t we give MIN SDK as 1 in android?</string>
+    <string name="qus9An1">Android deprecated version</string>
+    <string name="qus9An2">There is no value for 1</string>
+    <string name="qus9An3">Android doesn\'t allow min version 1</string>
+    <string name="qus9An4">None of the above</string>
+    <string name="qus9AnExp">Android version 2.2 is deprecated so we don\'t need to call MIN version to be 1</string>
+
+    <!--qustion Ten-->
+    <string name="qus10">Q10. Can a class be immutable in android?</string>
+    <string name="qus10An1">No, it can\'t</string>
+    <string name="qus10An2">Yes, Class can be immutable</string>
+    <string name="qus10An3">Can\'t make the class as final class</string>
+    <string name="qus10An4">None of the above</string>
+    <string name="qus10AnExp">Class can be immutable.</string>
+
+    <string-array name="questionReview">
+        <item>Q1.  How to pass the data between activities in Android? \n \n ANS: Intent</item>
+        <item>Q2.  What are the layouts available in android \n \n ANS: All of the above</item>
+        <item>Q3.  What are the return values of onStartCommand() in android services? \n \n ANS: All of the above</item>
+        <item>Q4.  How many applications are there in a given task in android? \n \n ANS: Many</item>
+        <item>Q5.  What is an anonymous class in android? \n \n ANS: A class that does not have a name but have functionalities in it</item>
+        <item>Q6.  What is APK in android? \n \n ANS: Android packaging kit</item>
+        <item>Q7.  What does httpclient.execute() returns in android? \n \n ANS: Http response</item>
+        <item>Q8.  What is the HTTP response error code status in android? \n \n ANS: status >= 400</item>
+        <item>Q9.  Why don\'t we give MIN SDK as 1 in android? \n \n ANS: Android deprecated version</item>
+        <item>Q10. Can a class be immutable in android? \n \n ANS: Yes, Class can be immutable</item>
+    </string-array>
+
+</resources>

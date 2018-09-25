@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginHorinzontal">16dp</dimen>
+    <dimen name="marginVertical">16dp</dimen>
+    <dimen name="marginToRight">150dp</dimen>
+    <dimen name="marginToLeft">150dp</dimen>
+    <dimen name="paddingSize">10dp</dimen>
+    <dimen name="mainTextSize">15sp</dimen>
+</resources>
